@@ -1,3 +1,14 @@
+		  / ER1, Mo1, NC1, SK1
+1. Individuos == 3 - ER2, Mo2, NC2, SK2
+                  \ ER3, Mo3, NC3, SK3
+
+
+	     - / ER1, ER2, ER3, ER4
+            / Mo1, Mo2, Mo3, Mo4
+2. Tejidos -
+	    \ NC1, NC2, NC3, NC4
+	     -\ SK1, SK2, SK3, SK4
+
 INDIVIDUAL ASSEMBLY:
 
 SCRIPT 1:
