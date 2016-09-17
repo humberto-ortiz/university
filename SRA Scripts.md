@@ -12,6 +12,7 @@ Sinocheilus: -			   - 4 Individuals
 
 REFERENCE SCRIPT:
 
+```
 #!/bin/sh
 #SBATCH --time 2:00:00
 #SBATCH -p debug -n 16
@@ -40,9 +41,11 @@ mv /home/andrewwt/SRR2001218_1.fastq /home/andrewwt/Kmar_diapauserep1.fq
 
 fastq-dump --defline-seq '@$sn[_$rn]/$ri' --split-files SRR1999414
 mv /home/andrewwt/SRR1999414_1.fastq /home/andrewwt/Kmar_prediapause.fq
+```
 
 SCRIPT:
 
+```
 #!/bin/sh
 #SBATCH --time 2:00:00
 #SBATCH -p debug -n 16
@@ -77,3 +80,4 @@ fastq-dump --defline-seq '@$sn[_$rn]/$ri' --split-files SRR788096 mv /storage/ho
 // CAVEFISH, SRR788097
 
 fastq-dump --defline-seq '@$sn[_$rn]/$ri' --split-files SRR788097 mv /storage/home/dortiz/SRR788097.fastq /storage/home/dortiz/SINCF02_SRR788097.fq
+```
